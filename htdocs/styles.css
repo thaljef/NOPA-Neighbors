@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+html body {
+        height:100%;
+        width:100%;
+        margin:0px;
+        padding:0px;
+        font-family:Verdana, Geneva, sans-serif;
+        font-size:.7em;
+        color:#666;
+        background-image:url(images/background.jpg);
+        background-repeat:repeat;
+}
+
+#main {
+    width:700px;
+    margin:auto;
+    margin-top:10px;
+}
+
+#header {
+    background-image:url(images/header.jpg);
+    height:4px;
+    width:700px;
+}
+
+#content {
+    background-image:url(images/body.jpg);
+    background-repeat:repeat-y;
+    position:relative;
+    height:1400px;
+    width:700px;
+    z-index:5;
+}
+
+#banner {
+    background-image:url(images/neighborhood.png);
+    height:337px;
+    width:686px;
+    margin:auto;
+}
+
+#footer {
+    background-image:url(images/footer.jpg);
+    height:150px;
+    width:700px;
+}
+
+#region1 {
+    position:absolute;
+    top:355px;
+    left:28px;
+    width:380px;
+}
+
+#region2 {
+    position:absolute;
+    top:340px;
+    left:425px;
+}
+
+#region3 {
+    position:absolute;
+    top:515px;
+    left:28px;
+    width:380px;
+}
+
+#region4 {
+    position:absolute;
+    top:660px;
+    left:18px;
+}
+
+#region5 {
+    position:absolute;
+    top:685px;
+    left:350px;
+    width:330px;
+}
+
+#region6 {
+    position:absolute;
+    top:1040px;
+    left:28px;
+    width:380px;
+}
+
+#region7 {
+    position:absolute;
+    top:945px;
+    left:435px;
+    width:380px;
+}
+
+#region8 {
+    position:absolute;
+    top:1340px;
+    left:50px;
+}
+
+h1 {
+    color:#FFFFFF;
+    font-size:24px;
+    font-family:'HoeflerText-Regular','Hoefler Text','Times New Roman',serif;
+    font-weight:400;
+    line-height:29px;
+    padding:0;
+    margin:0;
+}
+
+p {
+    color:#515151;
+    font-size:14px;
+    font-family:'HoeflerText-Regular','Hoefler Text','Times New Roman',serif;
+    line-height:17px;
+    padding:0;
+    margin-top:0px;
+    margin-bottom:10px;
+
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="02bb0839-1a3c-324e-9449-d10e239b6002" kpf_version="4" name="NopaNeighbors.kpf">
+<preference-set idref="02bb0839-1a3c-324e-9449-d10e239b6002">
+  <boolean id="import_live">1</boolean>
+</preference-set>
+</project>
