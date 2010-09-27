@@ -1,0 +1,8 @@
+<VirtualHost *:80>
+
+    ServerName nopaneighbors.org
+    ServerAlias www.nopaneighbors.org
+    DocumentRoot /var/www/vhosts/nopaneighbors.org/htdocs
+    UseCanonicalName Off
+
+</VirtualHost>
