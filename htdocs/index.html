@@ -3,37 +3,63 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <title>NOPA Neighbors</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css"></link>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.3.js"></script>
+    <script type="text/javascript" src="http://github.com/malsup/corner/raw/master/jquery.corner.js?v2.09"></script>
+    <script type="text/javascript" src="script/google-analytics.js"></script>
+
     <script type="text/javascript">
+	$(document).ready(function(){
+	    $("div#popover").fadeIn("slow");
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-10783012-2']);
-        _gaq.push(['_trackPageview']);
+	    $("a#out").click(function(event){
+		$("div#popover").fadeOut("fast");
+	    });
+	});
 
-        (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-
+	$("div#popover").corner("round 14px");
     </script>
+
 </head>
 <body>
     <div id="main">
         <div id="header"></div>
         <div id="content">
+
+	    <div id="popover">
+		<script>
+
+		</script>
+
+		<div id="popover-content">
+		    <div style="text-align:center"><h1>We Did It!</h1></div>
+		    <p>
+			Thanks to your generous donations, the NOPA Neighbors Fund has
+			reached the $300 goal.  The first clean-up is planned for
+			Saturday, November 6.  Please click <a href="cleanup.html">
+			here</a> for more details.
+		    </p>
+
+		    <p>
+			In the meantime, the balance of the Fund has been reset.
+			You can still make a donation, and it will be applied toward
+			the next clean-up.  We appreciate your contribution!
+		    </p>
+
+		    <div style="text-align:right; font-size:10px; color:#D6D6D6"><a id="out">CLOSE</a></div>
+		</div>
+            </div>
+
             <div id="banner"></div>
-            <div id="region1">
-                <h1>
-                    Howdy Neighbor!
-                </h1>
+	    <div id="region1">
+                <h1>Howdy Neighbor!</h1>
                 <p>
                     My wife and I have lived at 38 Cole Street since 2007.
                     We love looking at the beautiful buildings and meeting
-                    all the wonderful people who live in this part of the NOrth 
+                    all the wonderful people who live in this part of the NOrth
                     PAnhandle neighborhood. But sometimes, the wind and rain and
-                    a few careless citizens make a mess.  It saddens us when we 
-                    see the neighborhood littered with trash and debris.  But 
+                    a few careless citizens make a mess.  It saddens us when we
+                    see the neighborhood littered with trash and debris.  But
                     with your help, we’d like do something about it.
                 </p>
             </div>
@@ -41,9 +67,7 @@
                 <img src="images/family.png" alt="Our Family"/>
             </div>
             <div id="region3">
-                <h1>
-                    The NOPA Neighbors Fund
-                </h1>
+                <h1>The NOPA Neighbors Fund</h1>
                 <p>
                     Using the <a href="#donate">button below</a>, you can
                     contribute to the NOPA Neighbors Fund.  Each time the Fund
@@ -58,9 +82,7 @@
                 <img src="images/map.png" alt="The NOPA Neighbors Area"/>
             </div>
             <div id="region5">
-                <h1>
-                    Think Globally, Act Locally
-                </h1>
+                <h1>Think Globally, Act Locally</h1>
                 <p>
                     As residents and homeowners, I bet most of us wouldn’t mind
                     paying a little extra in city taxes or fees if we knew the
@@ -78,9 +100,7 @@
                 </p>
             </div>
             <div id="region6">
-                <h1>
-                    Love Thy Neighbor
-                </h1>
+                <h1>Love Thy Neighbor</h1>
                 <p>
                     This is not an official charity, organization, or institution.
                     I’m just a friendly neighbor trying to make our corner of

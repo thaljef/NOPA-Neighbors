@@ -30,7 +30,6 @@ html body {
     position:relative;
     height:1400px;
     width:700px;
-    z-index:5;
 }
 
 #banner {
@@ -97,6 +96,50 @@ html body {
     position:absolute;
     top:1340px;
     left:50px;
+}
+
+#region9 {
+    position:absolute;
+    top:355px;
+    left:90px;
+    width:520px;
+}
+
+#popover {
+    background-image:url(images/popover-background.png);
+    background-repeat:repeat;
+    position:absolute;
+    color:#FFFFFF;
+    display:none;
+    top:150px;
+    left:85px;
+    width:510px;
+    height:285px;
+    z-index:1;
+}
+
+#popover-content {
+    padding:20px;
+}
+
+#popover h1 {
+        color:#43C6DB;
+        font-size:28px;
+        font-family:'HoeflerText-Regular','Hoefler Text','Times New Roman',serif;
+        font-weight:400;
+        line-height:32px;
+        padding:0;
+        margin-bottom:20px;
+}
+
+#popover p {
+        color:#FFFFFF;
+        font-size:18px;
+        font-family:'HoeflerText-Regular','Hoefler Text','Times New Roman',serif;
+        line-height:21px;
+        padding:0;
+        margin-top:0px;
+        margin-bottom:20px;
 }
 
 h1 {
