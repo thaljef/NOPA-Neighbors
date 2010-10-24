@@ -112,15 +112,13 @@ html body {
     color:#FFFFFF;
     display:none;
     top:150px;
-    left:85px;
+    left:70px;
     width:510px;
-    height:285px;
+    height:220px;
+    padding:25px;
     z-index:1;
 }
 
-#popover-content {
-    padding:20px;
-}
 
 #popover h1 {
         color:#43C6DB;
@@ -138,7 +136,6 @@ html body {
         font-family:'HoeflerText-Regular','Hoefler Text','Times New Roman',serif;
         line-height:21px;
         padding:0;
-        margin-top:0px;
         margin-bottom:20px;
 }
 
